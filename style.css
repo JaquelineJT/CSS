@@ -1,0 +1,227 @@
+header{
+    background-color: #fff;
+    display: block;
+    display: flex;
+    flex-flow: row nowrap;
+    height: 15vh;
+    justify-content: space-between;
+    
+}
+ 
+.nav{
+position: absolute;
+width: 100%;
+}
+
+.nav a{
+position: relative;
+left: 60%;
+top: 50px;
+text-decoration: none;
+margin-right: 20px;
+}
+
+
+    
+body{
+    font-family: 'Fredoka', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+
+.seccion2,.seccion3,.seccion4{
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 800px;
+    width: 100%;  
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 5%;
+}
+.seccion1{
+    background-image: url(img/covidvacuna.jpg);
+    background-position: right top;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 5%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 800px;
+    width: 100%;  
+}
+h1{
+    font-size: 50px;
+    color: rgb(9, 29, 119);
+}
+p{
+    font-size: 20px;
+    margin: 3%;
+    color: rgb(80, 80, 80);
+}
+.certificados{
+    margin: 10%;
+    color: rgb(9, 29, 119);
+}
+.agenda h3{
+    color: rgb(9, 29, 119);
+}
+.cita{
+    align-items:center;
+    background-color: rgba(255, 255, 255, 0.815);
+    box-shadow: 0px 10px 10px rgba(78, 78, 78, 0.815);
+    display: flex;
+    height: 100px;
+    width: 30%;
+    justify-content: space-between;
+}
+.cita th{
+    color: rgb(80, 80, 80);
+}
+.cita td{
+    color: rgb(9, 29, 119);
+}
+.marcas{
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    filter: grayscale(100%) opacity(30%);
+    height: 200px;
+    width: 90%;
+    justify-content: space-between;
+    margin: 5%;
+    padding: 5%;
+}
+.subtitulo{
+    color: rgb(9, 29, 119);
+    font-size: 40px;
+}
+.seccion2 li{
+    color: rgb(9, 29, 119);
+}
+.seccion2 ul{
+    border: solid 3px rgb(142, 194, 255);
+    border-radius: 10px;
+    height: 200px;
+    list-style: none;
+    padding: 2%;
+    width: 15%;
+    align-items: center;
+    margin: 2%;
+}
+.definicion{
+    font-size: 18px;
+}
+.seccion3{
+    background-image: url(img/cita.png);
+    background-position: left top;
+    text-align: right;
+}
+
+.antesde{
+    width: 40%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0 16px 16px 0;
+    background-color: #fff;  
+    margin-left: 50%;
+
+}
+.desplegable{
+    cursor: pointer;
+    list-style: none;
+    width: 100%;
+    text-align: center; 
+    color: rgb(9, 29, 119);
+    
+}
+.descripcion{
+width: 80%;
+border-radius: 10px;
+padding-left: 20 px;
+list-style: none;
+transition: height .4s;
+height: 0;
+overflow: hidden;
+}
+.flecha{
+    transition: transform .3s;
+}
+.arrow .flecha{
+    transform: rotate(-90deg);
+
+}
+.seccion4{
+    background-image: url(img/doctor.png);
+    background-position: right top;
+    padding: 5%;
+}
+
+.beneficios{
+    background-color: rgba(255, 255, 255, 0.815);
+    box-shadow: 0px 10px 10px rgba(78, 78, 78, 0.815);
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    padding: 1em 6em;
+    align-items: center;
+    align-content: center;
+}
+.contactos{
+    
+    background-color: rgba(255, 255, 255, 0.815);
+    box-shadow: 0px 10px 10px rgba(78, 78, 78, 0.815);
+    display: flex;
+    height: 200px;
+    width: 50%;
+    list-style: none;
+    color: rgb(9, 29, 119);
+}
+li{
+    display: list-item;
+    text-align:center;
+}
+
+footer{
+    background-color: rgb(201, 225, 228);
+    height: 3
+    0vh;
+    bottom: 0vh;
+    max-width: 1200 px;
+    text-decoration: none;  
+}
+
+.pie{
+    display: flex;
+    margin-bottom: 25 px;
+    font-size: 20 px; 
+}
+footer a{
+    text-decoration: none;
+
+}
+
+.box1{
+    max-width: 300px;
+    margin-top: 20px;
+    margin-left: 70px;
+    justify-content: left;
+    
+}
+.box2{
+    max-width: 300px;
+    margin-top: 20px;
+    margin-left: 200px;
+    position: relative;
+
+    
+}
+
+header, footer{
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(51, 51, 51);
+    width: 100%;   
+}
